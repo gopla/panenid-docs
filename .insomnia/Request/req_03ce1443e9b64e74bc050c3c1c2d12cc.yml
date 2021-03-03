@@ -1,0 +1,31 @@
+_id: req_03ce1443e9b64e74bc050c3c1c2d12cc
+type: Request
+parentId: fld_1bf9ab9bff4a4d5e812d53c61a40a1d1
+modified: 1614775244782
+created: 1614775080788
+url: "{{ _.base_url }}/master/kategori/3"
+name: Update one
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nama":"Siap Masak"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759443432.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

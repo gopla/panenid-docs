@@ -1,0 +1,23 @@
+_id: req_dacf3941f16c4383a9c91466cd19eb0c
+type: Request
+parentId: fld_3759a2e5b91b4a93ab4ddc3bce56d2e3
+modified: 1614774717795
+created: 1614759416436
+url: "{{ _.base_url }}/master/wilayah"
+name: Get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_546318db736b4c2f8f494b9faf4acd96
+type: Request
+parentId: fld_d03c42129ebd48288627eaaca332870e
+modified: 1614781905206
+created: 1614781813838
+url: "{{ _.base_url }}/master/daftaralamat"
+name: Get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

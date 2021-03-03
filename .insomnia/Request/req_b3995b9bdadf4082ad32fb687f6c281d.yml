@@ -1,0 +1,32 @@
+_id: req_b3995b9bdadf4082ad32fb687f6c281d
+type: Request
+parentId: wrk_270bd136a76a4914bb644294c5d7f014
+modified: 1614774827560
+created: 1614774783725
+url: "{{ _.base_url }}/setting/user/profil"
+name: Get Profile
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"gopla@here.com",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4102ec7ae0c492da1078554c0c21720
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614757820184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

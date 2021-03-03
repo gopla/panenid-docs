@@ -1,0 +1,23 @@
+_id: req_77618808553246e4bcac4a64a2e16466
+type: Request
+parentId: fld_a51b126ea44f4396bc981a10ba80d00d
+modified: 1614778456894
+created: 1614778455000
+url: "{{ _.base_url }}/master/produk/1"
+name: Get one
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470454
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

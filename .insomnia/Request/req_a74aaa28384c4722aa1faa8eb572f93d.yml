@@ -1,0 +1,34 @@
+_id: req_a74aaa28384c4722aa1faa8eb572f93d
+type: Request
+parentId: fld_d03c42129ebd48288627eaaca332870e
+modified: 1614782773324
+created: 1614781813868
+url: "{{ _.base_url }}/master/daftaralamat/1"
+name: Update one
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nama": "Alamat Utama",
+    	"alamat": "Jl Soekarno Hatta, No. 143, Rt 12 RW 44, Malang",
+    	"kode_pos": "65454",
+    	"no_telp": "0341654432"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759443432.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

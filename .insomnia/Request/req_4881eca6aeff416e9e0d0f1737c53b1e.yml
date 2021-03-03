@@ -1,0 +1,23 @@
+_id: req_4881eca6aeff416e9e0d0f1737c53b1e
+type: Request
+parentId: fld_3759a2e5b91b4a93ab4ddc3bce56d2e3
+modified: 1614774731896
+created: 1614759901818
+url: "{{ _.base_url }}/master/wilayah/3"
+name: Delete one
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759139390.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

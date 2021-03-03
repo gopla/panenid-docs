@@ -1,0 +1,63 @@
+_id: req_6ad76b8cc3104896b993d6500d62e4e5
+type: Request
+parentId: fld_a51b126ea44f4396bc981a10ba80d00d
+modified: 1614777892296
+created: 1614776488063
+url: "{{ _.base_url }}/master/produk"
+name: Store new
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: id_kategori
+      value: "1"
+      id: pair_c9b4c6749df24145b98bc3546930b74a
+    - name: id_wilayah
+      value: "1"
+      description: ""
+      id: pair_ab20db8d60a14feea04ae1605fcea524
+    - name: nama
+      value: Knagkung
+      description: ""
+      id: pair_278cc2eb1eda4c99bb21d4770025130b
+    - name: deskripsi
+      value: Kangkung non-organik
+      description: ""
+      id: pair_42e566a868e3453c8d22a3f6af52449d
+    - name: harga
+      value: "2000"
+      description: ""
+      id: pair_c9c9745e39df4795bf0c2a98155decde
+    - name: satuan
+      value: pcs
+      description: ""
+      id: pair_cabd0192cd114270a0c9ad544d64024e
+    - name: keterangan
+      value: 2-3 ikat per pcs
+      description: ""
+      id: pair_8ebb30e0186a4345a01cd51caee0054c
+    - name: file
+      value: ""
+      description: ""
+      id: pair_033fd3ec7af14d7ab8d1dfbcb3ece86c
+      type: file
+      multiline: null
+      fileName: D:\Panen
+        Img\Produk\9-manfaat-kangkung-bagi-kesehatan-beserta-efek-sampingnya-yang-pelru-diperhatikan.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

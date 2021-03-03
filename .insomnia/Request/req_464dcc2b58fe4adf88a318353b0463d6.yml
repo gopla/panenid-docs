@@ -1,0 +1,23 @@
+_id: req_464dcc2b58fe4adf88a318353b0463d6
+type: Request
+parentId: fld_a51b126ea44f4396bc981a10ba80d00d
+modified: 1614780178851
+created: 1614780173610
+url: "{{ _.base_url }}/master/produk/wilayah/1"
+name: Get by Wilayah
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470435.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

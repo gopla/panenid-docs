@@ -1,0 +1,34 @@
+_id: req_5d79cdeb579649908f757ed0d5d34efa
+type: Request
+parentId: fld_d03c42129ebd48288627eaaca332870e
+modified: 1614782063200
+created: 1614781813851
+url: "{{ _.base_url }}/master/daftaralamat"
+name: Store new
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nama":"Rumah",
+    	"alamat":"Jl Sana",
+    	"kode_pos":"65454",
+    	"no_telp":"0341654432"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

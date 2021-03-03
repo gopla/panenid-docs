@@ -1,0 +1,23 @@
+_id: req_3514cdc6161d47e88588409339b97307
+type: Request
+parentId: fld_d03c42129ebd48288627eaaca332870e
+modified: 1614782671252
+created: 1614781813884
+url: "{{ _.base_url }}/master/daftaralamat/3"
+name: Delete one
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759139390.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

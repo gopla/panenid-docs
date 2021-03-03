@@ -1,0 +1,23 @@
+_id: req_ba288bfe59e0451ba030e39d19f33575
+type: Request
+parentId: fld_a51b126ea44f4396bc981a10ba80d00d
+modified: 1614778274454
+created: 1614776488095
+url: "{{ _.base_url }}/master/produk/3"
+name: Delete one
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759139390.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_de35f68c6a984fd9ba9e84efe149273c
+type: Request
+parentId: fld_8cfcfbb124e741ce90a5863108fa1e12
+modified: 1614774708791
+created: 1614761415486
+url: "{{ _.base_url }}/master/user/1"
+name: Update one
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_wilayah":1,
+    	"nama":"Naufal Yudhistira",
+    	"email":"gopla@here.com",
+    	"password":"123456",
+    	"alamat":"Jl. Soekarno Hatta, No. 143, RT 3 RW 1, Malang",
+    	"kode_pos":"65465",
+    	"no_telp":"0899098878"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759443432.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_082d0aa62c664420b37436519d03cee2
+type: Request
+parentId: fld_3759a2e5b91b4a93ab4ddc3bce56d2e3
+modified: 1614774727539
+created: 1614759470429
+url: "{{ _.base_url }}/master/wilayah"
+name: Store new
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nama":"Kuvukiland"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

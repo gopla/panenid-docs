@@ -1,0 +1,17 @@
+_id: env_7561910d1e2e4dc59ab77d5e8db565be
+type: Environment
+parentId: env_b5105d13bfd26b21c90563920dcc38930c3b711d
+modified: 1614774692821
+created: 1614758841605
+name: Lokal
+data:
+  base_url: http://localhost:3002/api
+  token: "{% response 'body', 'req_eb545893bb3342bdb2c01be1b85e2da3',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: "#872626"
+isPrivate: false
+metaSortKey: 1614758841605

@@ -1,0 +1,23 @@
+_id: req_dde0149bad584d0da9d8cc67a47a8ac9
+type: Request
+parentId: fld_a51b126ea44f4396bc981a10ba80d00d
+modified: 1614779999092
+created: 1614779986882
+url: "{{ _.base_url }}/master/produk/kategori/2"
+name: Get by Kategori
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470441.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

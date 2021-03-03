@@ -1,0 +1,35 @@
+_id: req_f917db306dda43b49b635f4c1878857a
+type: Request
+parentId: wrk_270bd136a76a4914bb644294c5d7f014
+modified: 1614782231077
+created: 1614774964992
+url: "{{ _.base_url }}/auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_wilayah":1,
+    	"nama":"Sultan Achmad",
+    	"email":"sultan@here.com",
+    	"password":"123456",
+    	"alamat":"Jl. Raya Singosari, No. 54, RT 12 RW 11, Singosari",
+    	"kode_pos":"654321",
+    	"no_telp":"89909881236"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4102ec7ae0c492da1078554c0c21720
+authentication: {}
+metaSortKey: -1614758327741.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

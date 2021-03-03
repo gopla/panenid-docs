@@ -1,0 +1,30 @@
+_id: req_eb545893bb3342bdb2c01be1b85e2da3
+type: Request
+parentId: wrk_270bd136a76a4914bb644294c5d7f014
+modified: 1614782613819
+created: 1614774589190
+url: "{{ _.base_url }}/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"gopla@here.com",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4102ec7ae0c492da1078554c0c21720
+authentication: {}
+metaSortKey: -1614758835299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
