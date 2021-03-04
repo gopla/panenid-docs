@@ -1,0 +1,33 @@
+_id: req_9f471d05b89c423dbeb8abe4cc234335
+type: Request
+parentId: fld_ba741cfc1e414479820fd8f9963912e1
+modified: 1614868041136
+created: 1614867883975
+url: "{{ _.base_url }}/master/bank"
+name: Store new
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"atasNama": "Aqib Alvaaiziin",
+    	"bank": "BNI",
+    	"noRek": "00000000000000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

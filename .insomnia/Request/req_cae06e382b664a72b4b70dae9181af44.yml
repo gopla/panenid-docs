@@ -1,19 +1,19 @@
-_id: req_7c939202ea9b4b43b65087be2c78d7a3
+_id: req_cae06e382b664a72b4b70dae9181af44
 type: Request
-parentId: fld_1bf9ab9bff4a4d5e812d53c61a40a1d1
-modified: 1614867956163
-created: 1614775080801
-url: "{{ _.base_url }}/master/kategori/9"
-name: Delete one
+parentId: fld_8cfcfbb124e741ce90a5863108fa1e12
+modified: 1614868490364
+created: 1614868483672
+url: "{{ _.base_url }}/master/user/1"
+name: Get one
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759139390.75
+metaSortKey: -1614759470454
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

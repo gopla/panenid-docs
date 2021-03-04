@@ -1,0 +1,33 @@
+_id: req_e2404ad1d11741d6b9f95ae8574a77f1
+type: Request
+parentId: fld_ba741cfc1e414479820fd8f9963912e1
+modified: 1614868070342
+created: 1614867884000
+url: "{{ _.base_url }}/master/bank/2"
+name: Update one
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"atasNama": "Moch. Aqib Alvaaiziin",
+    	"bank": "BNI",
+    	"noRek": "12300000000000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759443432.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
