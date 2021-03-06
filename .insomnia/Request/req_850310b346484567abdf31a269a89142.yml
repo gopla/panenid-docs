@@ -1,19 +1,19 @@
-_id: req_cae06e382b664a72b4b70dae9181af44
+_id: req_850310b346484567abdf31a269a89142
 type: Request
-parentId: fld_8cfcfbb124e741ce90a5863108fa1e12
-modified: 1614870898541
-created: 1614868483672
-url: "{{ _.base_url }}/master/user/1"
-name: Get one
+parentId: fld_26efb1952b064bb88bc592bca989125e
+modified: 1615001753128
+created: 1615001273570
+url: "{{ _.base_url }}/master/jamantar/8"
+name: Delete one
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470454
+metaSortKey: -1614759139390.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

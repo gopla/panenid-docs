@@ -1,28 +1,29 @@
-_id: req_b3995b9bdadf4082ad32fb687f6c281d
+_id: req_7df51eb71de44b73ae4d96d7725b0aee
 type: Request
-parentId: wrk_270bd136a76a4914bb644294c5d7f014
-modified: 1614870830643
-created: 1614774783725
-url: "{{ _.base_url }}/setting/user/get/profil"
-name: Get Profile
+parentId: fld_26efb1952b064bb88bc592bca989125e
+modified: 1615001717047
+created: 1615001273524
+url: "{{ _.base_url }}/master/jamantar/"
+name: Store new
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"gopla@here.com",
-    	"password":"123456"
+    	"id_wilayah":1,
+    	"nama":"Jam Antar Sore",
+    	"jam":"20:00 WIB"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_c4102ec7ae0c492da1078554c0c21720
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614757820184
+metaSortKey: -1614759470429
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

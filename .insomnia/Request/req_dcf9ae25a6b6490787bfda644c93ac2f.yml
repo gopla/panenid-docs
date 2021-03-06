@@ -1,9 +1,9 @@
 _id: req_dcf9ae25a6b6490787bfda644c93ac2f
 type: Request
 parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1614867884028
+modified: 1615001759141
 created: 1614867884028
-url: "{{ _.base_url }}/master/kategori/8"
+url: "{{ _.base_url }}/master/bank/8"
 name: Delete one
 description: ""
 method: DELETE
