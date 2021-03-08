@@ -1,0 +1,23 @@
+_id: req_f9f4000e21584aee951d1debd6693774
+type: Request
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1615182890054
+created: 1615012519005
+url: "{{ _.base_url }}/transaksi/keranjang/user"
+name: Get one
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470466.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_66b5f10e974b47f79b1f095808cac294
+type: Request
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1615182418726
+created: 1615012518959
+url: "{{ _.base_url }}/transaksi/keranjang"
+name: Store new
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"id_produk":1,
+    		"jumlah":3,
+    		"subtotal":6000
+    	},
+    	{
+    		"id_produk":4,
+    		"jumlah":2,
+    		"subtotal":4000
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

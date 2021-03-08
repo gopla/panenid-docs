@@ -1,0 +1,33 @@
+_id: req_591b16fa3bdc49fa8dcf0bb95a15c24b
+type: Request
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1615183391600
+created: 1615012518974
+url: "{{ _.base_url }}/transaksi/keranjang"
+name: Update one (MASIH BELUM DIPAKAI)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"atasNama": "Moch. Aqib Alvaaiziin",
+    	"bank": "BNI",
+    	"noRek": "12300000000000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759443432.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

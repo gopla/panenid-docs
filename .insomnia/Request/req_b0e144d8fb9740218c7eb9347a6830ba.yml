@@ -1,0 +1,23 @@
+_id: req_b0e144d8fb9740218c7eb9347a6830ba
+type: Request
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1615181976165
+created: 1615012518987
+url: "{{ _.base_url }}/transaksi/keranjang"
+name: Delete one
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759139390.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
