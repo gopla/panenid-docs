@@ -1,10 +1,10 @@
-_id: req_5206e38e79a24bbcafdb03b6426484bc
+_id: req_538ab790a4664657890ca8e8c1d8a539
 type: Request
-parentId: fld_a51b126ea44f4396bc981a10ba80d00d
-modified: 1616049501075
-created: 1614776488035
-url: "{{ _.base_url }}/master/produk"
-name: Get all
+parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
+modified: 1616318523198
+created: 1616318499507
+url: "{{ _.base_url }}/transaksi/transaksi/status/proses"
+name: Get list Proses
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470479
+metaSortKey: -1615988050132.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

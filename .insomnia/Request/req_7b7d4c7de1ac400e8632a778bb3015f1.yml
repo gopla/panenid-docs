@@ -1,19 +1,19 @@
-_id: req_5206e38e79a24bbcafdb03b6426484bc
+_id: req_7b7d4c7de1ac400e8632a778bb3015f1
 type: Request
-parentId: fld_a51b126ea44f4396bc981a10ba80d00d
-modified: 1616049501075
-created: 1614776488035
-url: "{{ _.base_url }}/master/produk"
-name: Get all
+parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
+modified: 1616318385288
+created: 1616317210634
+url: "{{ _.base_url }}/transaksi/transaksi"
+name: Post
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470479
+metaSortKey: -1616250305769.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

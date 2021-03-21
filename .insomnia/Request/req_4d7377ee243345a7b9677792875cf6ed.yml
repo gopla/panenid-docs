@@ -1,10 +1,10 @@
-_id: req_5206e38e79a24bbcafdb03b6426484bc
+_id: req_4d7377ee243345a7b9677792875cf6ed
 type: Request
-parentId: fld_a51b126ea44f4396bc981a10ba80d00d
-modified: 1616049501075
-created: 1614776488035
-url: "{{ _.base_url }}/master/produk"
-name: Get all
+parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
+modified: 1616318390996
+created: 1616318382964
+url: "{{ _.base_url }}/transaksi/transaksi/status/belumbayar"
+name: Get list Belum Bayar
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470479
+metaSortKey: -1616184741860.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
