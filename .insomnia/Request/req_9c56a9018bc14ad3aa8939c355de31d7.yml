@@ -1,0 +1,29 @@
+_id: req_9c56a9018bc14ad3aa8939c355de31d7
+type: Request
+parentId: fld_cec9c9a7419a4e14a3b2cf7242f9da2a
+modified: 1616556609625
+created: 1616556599762
+url: "{{ _.base_url }}/appinfo"
+name: Create App Info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"version":"0.0.1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_caac8224ef8d4615a35e34c8aa4ecbbd
+authentication: {}
+metaSortKey: -1614759386417.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

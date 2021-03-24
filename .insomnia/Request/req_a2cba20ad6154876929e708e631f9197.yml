@@ -1,12 +1,12 @@
-_id: req_9f471d05b89c423dbeb8abe4cc234335
+_id: req_a2cba20ad6154876929e708e631f9197
 type: Request
 parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1616555874451
-created: 1614867883975
-url: "{{ _.base_url }}/master/bank"
-name: Store new
+modified: 1616555979215
+created: 1616555973012
+url: "{{ _.base_url }}/master/bank/3"
+name: Update one
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: multipart/form-data
   params:
@@ -36,7 +36,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470429
+metaSortKey: -1614759463679.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

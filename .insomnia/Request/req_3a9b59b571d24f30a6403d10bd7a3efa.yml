@@ -1,0 +1,29 @@
+_id: req_3a9b59b571d24f30a6403d10bd7a3efa
+type: Request
+parentId: fld_cec9c9a7419a4e14a3b2cf7242f9da2a
+modified: 1616556796587
+created: 1616556691115
+url: "{{ _.base_url }}/appinfo/1"
+name: Update App Info
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"version":"0.1.2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_caac8224ef8d4615a35e34c8aa4ecbbd
+authentication: {}
+metaSortKey: -1614759386414.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

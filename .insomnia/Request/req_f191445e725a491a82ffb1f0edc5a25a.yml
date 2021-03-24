@@ -1,0 +1,23 @@
+_id: req_f191445e725a491a82ffb1f0edc5a25a
+type: Request
+parentId: fld_e1410e3135b741fa883c69309f53bcb8
+modified: 1616564825287
+created: 1616557861332
+url: "{{ _.base_url }}/master/rekomendasi/9"
+name: Delete one
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759139390.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,17 +1,17 @@
-_id: req_dacf3941f16c4383a9c91466cd19eb0c
+_id: req_4cf985458d014be4b96f4e2087dd7766
 type: Request
-parentId: fld_3759a2e5b91b4a93ab4ddc3bce56d2e3
-modified: 1616324917340
-created: 1614759416436
-url: "{{ _.base_url }}/master/wilayah"
-name: Get all
+parentId: fld_cec9c9a7419a4e14a3b2cf7242f9da2a
+modified: 1616556595291
+created: 1616556529312
+url: "{{ _.base_url }}/appinfo"
+name: App Info
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1614759470479
+metaSortKey: -1614759386423.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

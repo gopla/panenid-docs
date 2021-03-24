@@ -1,0 +1,32 @@
+_id: req_1f02c1f6e6114bb0ad8a89977b3a67d9
+type: Request
+parentId: fld_e1410e3135b741fa883c69309f53bcb8
+modified: 1616564821751
+created: 1616557861303
+url: "{{ _.base_url }}/master/rekomendasi"
+name: Store new
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_produk":1,
+    	"id_wilayah":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614759470429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,16 +1,18 @@
-_id: req_dacf3941f16c4383a9c91466cd19eb0c
+_id: req_d41360b7834d4031a2ccdd64db222491
 type: Request
-parentId: fld_3759a2e5b91b4a93ab4ddc3bce56d2e3
-modified: 1616324917340
-created: 1614759416436
-url: "{{ _.base_url }}/master/wilayah"
+parentId: fld_e1410e3135b741fa883c69309f53bcb8
+modified: 1616557867248
+created: 1616557861283
+url: "{{ _.base_url }}/master/rekomendasi"
 name: Get all
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1614759470479
 isPrivate: false
 settingStoreCookies: true

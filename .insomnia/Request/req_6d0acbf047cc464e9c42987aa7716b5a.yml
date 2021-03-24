@@ -1,9 +1,9 @@
-_id: req_e2404ad1d11741d6b9f95ae8574a77f1
+_id: req_6d0acbf047cc464e9c42987aa7716b5a
 type: Request
-parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1614868070342
-created: 1614867884000
-url: "{{ _.base_url }}/master/bank/2"
+parentId: fld_e1410e3135b741fa883c69309f53bcb8
+modified: 1616564830414
+created: 1616557861319
+url: "{{ _.base_url }}/master/rekomendasi/3"
 name: Update one
 description: ""
 method: PUT
@@ -11,9 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"atasNama": "Moch. Aqib Alvaaiziin",
-    	"bank": "BNI",
-    	"noRek": "12300000000000"
+    	"id_produk":1,
+    	"id_wilayah":1
     }
 parameters: []
 headers:
