@@ -1,10 +1,10 @@
 _id: req_8ab7bcd9b3e5484ba466af09665c4136
 type: Request
 parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
-modified: 1616315887991
+modified: 1617862889690
 created: 1616315869679
 url: "{{ _.base_url }}/transaksi/transaksi"
-name: Show all
+name: Show all by User
 description: ""
 method: GET
 body: {}

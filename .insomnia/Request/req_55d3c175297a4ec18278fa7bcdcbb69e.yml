@@ -1,7 +1,7 @@
 _id: req_55d3c175297a4ec18278fa7bcdcbb69e
 type: Request
 parentId: fld_3759a2e5b91b4a93ab4ddc3bce56d2e3
-modified: 1614774721423
+modified: 1617891856791
 created: 1614759697567
 url: "{{ _.base_url }}/master/wilayah/2"
 name: Update one
@@ -18,9 +18,7 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759443432.5
 isPrivate: false
 settingStoreCookies: true

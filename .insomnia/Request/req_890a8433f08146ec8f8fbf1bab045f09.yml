@@ -1,7 +1,7 @@
 _id: req_890a8433f08146ec8f8fbf1bab045f09
 type: Request
 parentId: fld_8cfcfbb124e741ce90a5863108fa1e12
-modified: 1614774994626
+modified: 1617891953371
 created: 1614761415460
 url: "{{ _.base_url }}/master/user"
 name: Store new
@@ -25,9 +25,7 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470429
 isPrivate: false
 settingStoreCookies: true

@@ -1,15 +1,23 @@
 _id: req_7b7d4c7de1ac400e8632a778bb3015f1
 type: Request
 parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
-modified: 1616318385288
+modified: 1617695646501
 created: 1616317210634
 url: "{{ _.base_url }}/transaksi/transaksi"
 name: Post
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_alamat":1
+    }	
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ed7c35d789ff47c7b0067847564b2450
 authentication:
   type: bearer
   token: "{{ _.token }}"

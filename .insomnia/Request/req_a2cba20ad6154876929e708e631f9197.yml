@@ -1,7 +1,7 @@
 _id: req_a2cba20ad6154876929e708e631f9197
 type: Request
 parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1616555979215
+modified: 1617891907754
 created: 1616555973012
 url: "{{ _.base_url }}/master/bank/3"
 name: Update one
@@ -26,16 +26,13 @@ body:
       description: ""
       id: pair_72c5904af1d44fdfb36494b42f536dff
       type: file
-      multiline: null
       fileName: C:\Users\Gopla\Downloads\unknown.png
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759463679.875
 isPrivate: false
 settingStoreCookies: true

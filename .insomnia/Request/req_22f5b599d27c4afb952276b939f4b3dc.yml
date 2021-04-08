@@ -1,7 +1,7 @@
 _id: req_22f5b599d27c4afb952276b939f4b3dc
 type: Request
 parentId: fld_1bf9ab9bff4a4d5e812d53c61a40a1d1
-modified: 1614776492903
+modified: 1617891863445
 created: 1614775080757
 url: "{{ _.base_url }}/master/kategori"
 name: Get all
@@ -10,9 +10,7 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470479
 isPrivate: false
 settingStoreCookies: true

@@ -1,17 +1,17 @@
 _id: req_eb545893bb3342bdb2c01be1b85e2da3
 type: Request
 parentId: wrk_270bd136a76a4914bb644294c5d7f014
-modified: 1616041918551
+modified: 1617517012235
 created: 1614774589190
 url: "{{ _.base_url }}/auth/login"
-name: Login
+name: Login Admin
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"gopla@here.com",
+    	"email":"admin@here.com",
     	"password":"123456"
     }
 parameters: []

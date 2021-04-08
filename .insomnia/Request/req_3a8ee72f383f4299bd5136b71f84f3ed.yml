@@ -1,7 +1,7 @@
 _id: req_3a8ee72f383f4299bd5136b71f84f3ed
 type: Request
 parentId: fld_e1410e3135b741fa883c69309f53bcb8
-modified: 1616564820064
+modified: 1617891883274
 created: 1616557861346
 url: "{{ _.base_url }}/master/rekomendasi/1"
 name: Get one
@@ -10,9 +10,7 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470454
 isPrivate: false
 settingStoreCookies: true

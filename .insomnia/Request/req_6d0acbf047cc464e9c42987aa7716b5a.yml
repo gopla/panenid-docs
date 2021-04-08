@@ -1,7 +1,7 @@
 _id: req_6d0acbf047cc464e9c42987aa7716b5a
 type: Request
 parentId: fld_e1410e3135b741fa883c69309f53bcb8
-modified: 1616564830414
+modified: 1617891889620
 created: 1616557861319
 url: "{{ _.base_url }}/master/rekomendasi/3"
 name: Update one
@@ -19,9 +19,7 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759443432.5
 isPrivate: false
 settingStoreCookies: true

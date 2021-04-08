@@ -1,10 +1,10 @@
 _id: req_b0e144d8fb9740218c7eb9347a6830ba
 type: Request
 parentId: fld_71621eb377c4429bb6e9fb9f16235baa
-modified: 1615181976165
+modified: 1617518004143
 created: 1615012518987
 url: "{{ _.base_url }}/transaksi/keranjang"
-name: Delete one
+name: Delete keranjang by user
 description: ""
 method: DELETE
 body: {}

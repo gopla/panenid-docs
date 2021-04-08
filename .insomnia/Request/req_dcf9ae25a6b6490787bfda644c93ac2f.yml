@@ -1,18 +1,16 @@
 _id: req_dcf9ae25a6b6490787bfda644c93ac2f
 type: Request
 parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1615001759141
+modified: 1617891910630
 created: 1614867884028
-url: "{{ _.base_url }}/master/bank/8"
+url: "{{ _.base_url }}/master/bank/6"
 name: Delete one
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759139390.75
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_5d79cdeb579649908f757ed0d5d34efa
 type: Request
 parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1614782063200
+modified: 1617692726857
 created: 1614781813851
 url: "{{ _.base_url }}/master/daftaralamat"
 name: Store new
@@ -11,6 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
+    	"id_wilayah":1,
     	"nama":"Rumah",
     	"alamat":"Jl Sana",
     	"kode_pos":"65454",

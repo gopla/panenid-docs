@@ -1,7 +1,7 @@
 _id: req_fb9e0368be704f7cb6b8414036f31f7c
 type: Request
 parentId: fld_1bf9ab9bff4a4d5e812d53c61a40a1d1
-modified: 1614775323038
+modified: 1617891870600
 created: 1614775080776
 url: "{{ _.base_url }}/master/kategori"
 name: Store new
@@ -18,9 +18,7 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470429
 isPrivate: false
 settingStoreCookies: true

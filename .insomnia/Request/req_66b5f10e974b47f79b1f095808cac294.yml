@@ -1,10 +1,10 @@
 _id: req_66b5f10e974b47f79b1f095808cac294
 type: Request
 parentId: fld_71621eb377c4429bb6e9fb9f16235baa
-modified: 1615182418726
+modified: 1617891825837
 created: 1615012518959
 url: "{{ _.base_url }}/transaksi/keranjang"
-name: Store new
+name: Store new Array
 description: ""
 method: POST
 body:
@@ -12,14 +12,14 @@ body:
   text: |-
     [
     	{
-    		"id_produk":1,
-    		"jumlah":3,
-    		"subtotal":6000
+    		"id_produk": 1,
+    		"jumlah": 3,
+    		"subtotal": 6000
     	},
     	{
-    		"id_produk":4,
-    		"jumlah":2,
-    		"subtotal":4000
+    		"id_produk": 5,
+    		"jumlah": 2,
+    		"subtotal": 4000
     	}
     ]
 parameters: []

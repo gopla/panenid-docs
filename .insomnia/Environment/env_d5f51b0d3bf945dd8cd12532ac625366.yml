@@ -1,12 +1,12 @@
 _id: env_d5f51b0d3bf945dd8cd12532ac625366
 type: Environment
 parentId: env_b5105d13bfd26b21c90563920dcc38930c3b711d
-modified: 1616041473247
+modified: 1617517005384
 created: 1616041450035
 name: Server
 data:
   base_url: http://api.panen-id.com/api
-  token: "{% response 'body', 'req_eb545893bb3342bdb2c01be1b85e2da3',
+  token: "{% response 'body', 'req_6a97522979054cefa4a22666cc86cb22',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":

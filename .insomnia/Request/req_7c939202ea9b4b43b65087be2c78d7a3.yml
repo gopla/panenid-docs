@@ -1,7 +1,7 @@
 _id: req_7c939202ea9b4b43b65087be2c78d7a3
 type: Request
 parentId: fld_1bf9ab9bff4a4d5e812d53c61a40a1d1
-modified: 1614867956163
+modified: 1617891876552
 created: 1614775080801
 url: "{{ _.base_url }}/master/kategori/9"
 name: Delete one
@@ -10,9 +10,7 @@ method: DELETE
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759139390.75
 isPrivate: false
 settingStoreCookies: true

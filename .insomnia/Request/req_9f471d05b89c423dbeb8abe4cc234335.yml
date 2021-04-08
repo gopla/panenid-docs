@@ -1,7 +1,7 @@
 _id: req_9f471d05b89c423dbeb8abe4cc234335
 type: Request
 parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1616555874451
+modified: 1617891904916
 created: 1614867883975
 url: "{{ _.base_url }}/master/bank"
 name: Store new
@@ -26,16 +26,13 @@ body:
       description: ""
       id: pair_72c5904af1d44fdfb36494b42f536dff
       type: file
-      multiline: null
-      fileName: C:\Users\Gopla\Downloads\unknown.png
+      fileName: C:\Users\Gopla\Pictures\app ar\bolamata.jpg
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470429
 isPrivate: false
 settingStoreCookies: true

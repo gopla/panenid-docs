@@ -1,7 +1,7 @@
 _id: req_5a6432013d974c85897b9a2fec9ebe9c
 type: Request
 parentId: fld_ba741cfc1e414479820fd8f9963912e1
-modified: 1614867887449
+modified: 1617891895480
 created: 1614867883941
 url: "{{ _.base_url }}/master/bank"
 name: Get all
@@ -10,9 +10,7 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470479
 isPrivate: false
 settingStoreCookies: true

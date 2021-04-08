@@ -1,7 +1,7 @@
 _id: req_6ad76b8cc3104896b993d6500d62e4e5
 type: Request
 parentId: fld_a51b126ea44f4396bc981a10ba80d00d
-modified: 1614777892296
+modified: 1617891941219
 created: 1614776488063
 url: "{{ _.base_url }}/master/produk"
 name: Store new
@@ -14,15 +14,15 @@ body:
       value: "1"
       id: pair_c9b4c6749df24145b98bc3546930b74a
     - name: id_wilayah
-      value: "1"
+      value: "2"
       description: ""
       id: pair_ab20db8d60a14feea04ae1605fcea524
     - name: nama
-      value: Knagkung
+      value: Tahu
       description: ""
       id: pair_278cc2eb1eda4c99bb21d4770025130b
     - name: deskripsi
-      value: Kangkung non-organik
+      value: Tahu
       description: ""
       id: pair_42e566a868e3453c8d22a3f6af52449d
     - name: harga
@@ -44,14 +44,16 @@ body:
       type: file
       fileName: D:\Panen
         Img\Produk\9-manfaat-kangkung-bagi-kesehatan-beserta-efek-sampingnya-yang-pelru-diperhatikan.jpg
+    - name: stok
+      value: "0"
+      description: ""
+      id: pair_7f1e29defdec47d7bc0d49017c9676e2
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
     id: pair_7d7c87a77e6d453d8a0cdf4861c44f28
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470429
 isPrivate: false
 settingStoreCookies: true

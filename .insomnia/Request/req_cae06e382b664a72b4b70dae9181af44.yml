@@ -1,7 +1,7 @@
 _id: req_cae06e382b664a72b4b70dae9181af44
 type: Request
 parentId: fld_8cfcfbb124e741ce90a5863108fa1e12
-modified: 1614870898541
+modified: 1617891955828
 created: 1614868483672
 url: "{{ _.base_url }}/master/user/1"
 name: Get one
@@ -10,9 +10,7 @@ method: GET
 body: {}
 parameters: []
 headers: []
-authentication:
-  type: bearer
-  token: "{{ _.token }}"
+authentication: {}
 metaSortKey: -1614759470454
 isPrivate: false
 settingStoreCookies: true
