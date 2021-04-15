@@ -1,10 +1,10 @@
-_id: req_546318db736b4c2f8f494b9faf4acd96
+_id: req_99981ef778424f8f8da8f02e733d6df3
 type: Request
-parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1617945727357
-created: 1614781813838
-url: "{{ _.base_url }}/master/daftaralamat"
-name: Get all by user
+parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
+modified: 1617957137769
+created: 1617946460219
+url: "{{ _.base_url }}/transaksi/transaksi/admin/all?status=Belum Bayar"
+name: Show all by Status
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470479
+metaSortKey: -1616283087724.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

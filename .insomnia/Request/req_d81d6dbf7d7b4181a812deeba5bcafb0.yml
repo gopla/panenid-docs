@@ -1,22 +1,19 @@
-_id: req_5d79cdeb579649908f757ed0d5d34efa
+_id: req_d81d6dbf7d7b4181a812deeba5bcafb0
 type: Request
-parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1617950578964
-created: 1614781813851
-url: "{{ _.base_url }}/master/daftaralamat"
-name: Store new
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1618019885684
+created: 1617891367148
+url: "{{ _.base_url }}/transaksi/keranjang/oneproduct"
+name: Store one product
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id_wilayah":1,
-    	"penerima":"Pak Satpam",
-    	"nama":"Kantor",
-    	"alamat":"Jl Sana",
-    	"kode_pos":"65454",
-    	"no_telp":"0341654432"
+    	"id_produk": 5,
+    	"jumlah": 2,
+    	"subtotal": 4000
     }
 parameters: []
 headers:
@@ -26,7 +23,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470429
+metaSortKey: -1614759467054.4375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,17 +1,18 @@
-_id: req_e15bc5e7e46946eda2287e9618bab060
+_id: req_0f0dfaa8763343c69c0c9e7340890eec
 type: Request
 parentId: fld_a51b126ea44f4396bc981a10ba80d00d
-modified: 1617954395714
-created: 1616318900207
-url: "{{ _.base_url }}/master/produk/filter/hybrid?wilayah=malang&id_kategori=1"
-name: Get by Kategori Wilayah
+modified: 1617954618163
+created: 1617690413192
+url: "{{ _.base_url
+  }}/master/produk/search/listproduk?nama=&wilayah=malang&kategori=1"
+name: Get Search
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1614759470432.125
+metaSortKey: -1614759470447.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

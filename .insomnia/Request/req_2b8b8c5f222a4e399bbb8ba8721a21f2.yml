@@ -1,0 +1,33 @@
+_id: req_2b8b8c5f222a4e399bbb8ba8721a21f2
+type: Request
+parentId: wrk_270bd136a76a4914bb644294c5d7f014
+modified: 1618454276528
+created: 1618453973202
+url: "{{ _.base_url }}/setting/user/edit/password"
+name: Edit Password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password_lama": "123456",
+    	"password_baru": "1234",
+    	"password_konfirmasi": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4102ec7ae0c492da1078554c0c21720
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614757947073.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

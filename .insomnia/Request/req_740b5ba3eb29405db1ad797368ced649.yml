@@ -1,0 +1,43 @@
+_id: req_740b5ba3eb29405db1ad797368ced649
+type: Request
+parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
+modified: 1618451791399
+created: 1618288227961
+url: "{{ _.base_url }}/transaksi/transaksi/update/bayar"
+name: Kirim Bukti Transfer
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: id_transaksi
+      value: "12"
+      description: ""
+      id: pair_05a835b598684e2b810b8e3087acd15c
+    - name: id_bank
+      value: "1"
+      description: ""
+      id: pair_420a4670a9a84802a1f1a5b124ed9cce
+    - name: file
+      value: ""
+      description: ""
+      id: pair_f75e605c72b6451b8bb1a6aee957f722
+      type: file
+      multiline: null
+      fileName: C:\Users\Gopla\Pictures\app ar\bolamata.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_ed7c35d789ff47c7b0067847564b2450
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1616217523815.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

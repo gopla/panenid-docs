@@ -1,10 +1,10 @@
-_id: req_546318db736b4c2f8f494b9faf4acd96
+_id: req_8f9f2b1b24154c81b1fa11ae82b84368
 type: Request
-parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1617945727357
-created: 1614781813838
-url: "{{ _.base_url }}/master/daftaralamat"
-name: Get all by user
+parentId: fld_4ab6dc5925cf42e0a19f4f992e02ef32
+modified: 1617958631061
+created: 1617958625467
+url: "{{ _.base_url }}/transaksi/transaksi/8"
+name: Get Detail transaksi
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470479
+metaSortKey: -1616266696747.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

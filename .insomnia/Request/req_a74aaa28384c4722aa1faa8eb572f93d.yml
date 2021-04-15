@@ -1,7 +1,7 @@
 _id: req_a74aaa28384c4722aa1faa8eb572f93d
 type: Request
 parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1617692736607
+modified: 1617945760702
 created: 1614781813868
 url: "{{ _.base_url }}/master/daftaralamat/1"
 name: Update one
@@ -13,6 +13,7 @@ body:
     {
     	"id_wilayah":1,
     	"nama": "Alamat Utama",
+    	"penerima":"Naufal Yudhistira",
     	"alamat": "Jl Soekarno Hatta, No. 143, Rt 12 RW 44, Malang",
     	"kode_pos": "65454",
     	"no_telp": "0341654432"

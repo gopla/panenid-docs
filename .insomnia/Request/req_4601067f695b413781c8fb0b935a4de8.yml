@@ -1,19 +1,19 @@
-_id: req_546318db736b4c2f8f494b9faf4acd96
+_id: req_4601067f695b413781c8fb0b935a4de8
 type: Request
-parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1617945727357
-created: 1614781813838
-url: "{{ _.base_url }}/master/daftaralamat"
-name: Get all by user
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1618215236315
+created: 1618065926036
+url: "{{ _.base_url }}/transaksi/keranjang/oneproduct?id_produk=1"
+name: Delete one item keranjang by user
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470479
+metaSortKey: -1614758987344.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

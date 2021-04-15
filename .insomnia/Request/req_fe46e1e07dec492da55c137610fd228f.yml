@@ -1,23 +1,18 @@
-_id: req_5d79cdeb579649908f757ed0d5d34efa
+_id: req_fe46e1e07dec492da55c137610fd228f
 type: Request
-parentId: fld_d03c42129ebd48288627eaaca332870e
-modified: 1617950578964
-created: 1614781813851
-url: "{{ _.base_url }}/master/daftaralamat"
-name: Store new
+parentId: fld_71621eb377c4429bb6e9fb9f16235baa
+modified: 1618120301103
+created: 1618119872633
+url: "{{ _.base_url }}/transaksi/keranjang/plusjumlah"
+name: Add jumlah
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
-    {
-    	"id_wilayah":1,
-    	"penerima":"Pak Satpam",
-    	"nama":"Kantor",
-    	"alamat":"Jl Sana",
-    	"kode_pos":"65454",
-    	"no_telp":"0341654432"
-    }
+    	{
+    		"id_keranjang":170
+    	}
 parameters: []
 headers:
   - name: Content-Type
@@ -26,7 +21,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1614759470429
+metaSortKey: -1614759414934.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

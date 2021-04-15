@@ -1,0 +1,59 @@
+_id: req_dbbf234670e04c838400347c902f3738
+type: Request
+parentId: wrk_270bd136a76a4914bb644294c5d7f014
+modified: 1618453180604
+created: 1618452504166
+url: "{{ _.base_url }}/setting/user/edit/profil"
+name: Edit Profil
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: id_wilayah
+      value: "1"
+      description: ""
+      id: pair_ec835fbd197b441fbbf26bc7fb8140f0
+    - name: nama
+      value: Haloo
+      description: ""
+      id: pair_975a1ef24a0b41e4be02c3fddede26d9
+    - name: email
+      value: a@a.com
+      description: ""
+      id: pair_8e88dfe85adc4cdab1931f982adfd607
+    - name: alamat
+      value: sana
+      description: ""
+      id: pair_45e6c6187c77470e87269c239c362dc6
+    - name: kode_pos
+      value: "123"
+      description: ""
+      id: pair_ade141db279c4e5ca2df8d4e8b1fdba1
+    - name: no_telp
+      value: "1203"
+      description: ""
+      id: pair_4da4f2758687432e9a020b8fd60bfcab
+    - name: file
+      value: ""
+      description: ""
+      id: pair_1ef8bf19b7fe4ad88ec2531cc350dfd7
+      type: file
+      multiline: null
+      fileName: C:\Users\Gopla\Pictures\Gambar User\user1-128x128.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_c4102ec7ae0c492da1078554c0c21720
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1614758073962.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_6a97522979054cefa4a22666cc86cb22
+type: Request
+parentId: wrk_270bd136a76a4914bb644294c5d7f014
+modified: 1618066238247
+created: 1617516843990
+url: "{{ _.base_url }}/auth/login/user"
+name: Login User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"no_telp":"081234",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4102ec7ae0c492da1078554c0c21720
+authentication: {}
+metaSortKey: -1614758581520.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
